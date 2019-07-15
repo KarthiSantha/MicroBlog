@@ -1,4 +1,4 @@
-from flask import app,db
+from flask import create_app,db
 from app.models import User,Posts
 from hashlib import md5
 from datetime import datetime,timedelta
